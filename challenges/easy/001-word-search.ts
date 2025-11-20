@@ -28,18 +28,9 @@
  * hasWord(null);     // false
  */
 
-// TODO: Implement your solution below
-
-let wordSet: Set<string> | undefined;
-
-function setup(input: string[]): void {
-  // Your code here
-}
-
-function hasWord(word: string): boolean {
-  // Your code here
-  return false;
-}
+// ============================================
+// YOUR SOLUTION HERE
+// ============================================
 
 // ============================================
 // TEST CASES - Don't modify
