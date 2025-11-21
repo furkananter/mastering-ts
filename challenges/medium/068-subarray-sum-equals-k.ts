@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function subarraySum(nums: number[], k: number): number {
+  // TODO: Implement subarray sum equals k using hash map
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

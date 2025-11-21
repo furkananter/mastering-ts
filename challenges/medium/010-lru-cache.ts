@@ -33,6 +33,26 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class LRUCache<K = string, V = any> {
+  private capacity: number;
+  private cache: Map<K, V>;
+
+  constructor(capacity: number) {
+    this.capacity = capacity;
+    this.cache = new Map();
+  }
+
+  get(key: K): V | undefined {
+    // TODO: Implement get
+    throw new Error("Not implemented");
+  }
+
+  put(key: K, value: V): void {
+    // TODO: Implement put
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

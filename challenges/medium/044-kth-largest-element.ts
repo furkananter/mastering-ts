@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function kthLargest(arr: number[], k: number): number {
+  // TODO: Implement QuickSelect or Heap approach
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

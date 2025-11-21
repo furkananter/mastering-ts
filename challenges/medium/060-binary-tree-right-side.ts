@@ -33,6 +33,17 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface BinaryTreeNode<T> {
+  value: T;
+  left: BinaryTreeNode<T> | null;
+  right: BinaryTreeNode<T> | null;
+}
+
+function rightSideView<T>(root: BinaryTreeNode<T> | null): T[] {
+  // TODO: Implement right side view
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

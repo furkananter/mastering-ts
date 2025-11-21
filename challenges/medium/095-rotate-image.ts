@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function rotate(matrix: number[][]): void {
+  // TODO: Implement rotate image 90 degrees in place
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

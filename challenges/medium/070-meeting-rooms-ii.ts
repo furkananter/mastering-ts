@@ -29,6 +29,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Interval = [number, number];
+
+function minMeetingRooms(intervals: Interval[]): number {
+  // TODO: Implement meeting rooms II
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

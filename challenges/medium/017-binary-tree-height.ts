@@ -33,6 +33,17 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface BinaryTreeNode<T> {
+  value: T;
+  left: BinaryTreeNode<T> | null;
+  right: BinaryTreeNode<T> | null;
+}
+
+function maxHeight<T>(node: BinaryTreeNode<T> | null): number {
+  // TODO: Implement max height calculation
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

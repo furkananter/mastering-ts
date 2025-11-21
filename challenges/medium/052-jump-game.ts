@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function canJump(nums: number[]): boolean {
+  // TODO: Implement jump game
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

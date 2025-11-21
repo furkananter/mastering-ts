@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function groupAnagrams(strs: string[]): string[][] {
+  // TODO: Implement group anagrams
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

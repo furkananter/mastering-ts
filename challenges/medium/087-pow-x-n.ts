@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function myPow(x: number, n: number): number {
+  // TODO: Implement power function using fast exponentiation
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

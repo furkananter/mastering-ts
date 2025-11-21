@@ -33,6 +33,40 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface ListNode<T> {
+  value: T;
+  next: ListNode<T> | null;
+}
+
+class LinkedList<T = any> {
+  private head: ListNode<T> | null = null;
+
+  append(value: T): void {
+    // TODO: Implement append
+    throw new Error("Not implemented");
+  }
+
+  prepend(value: T): void {
+    // TODO: Implement prepend
+    throw new Error("Not implemented");
+  }
+
+  find(value: T): ListNode<T> | null {
+    // TODO: Implement find
+    throw new Error("Not implemented");
+  }
+
+  delete(value: T): void {
+    // TODO: Implement delete
+    throw new Error("Not implemented");
+  }
+
+  toArray(): T[] {
+    // TODO: Implement toArray
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

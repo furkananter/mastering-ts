@@ -36,6 +36,16 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface TreeNode<T> {
+  value: T;
+  children: TreeNode<T>[];
+}
+
+function dfs<T>(node: TreeNode<T>, target: T): boolean {
+  // TODO: Implement depth-first search
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

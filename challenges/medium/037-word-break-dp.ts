@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function wordBreak(s: string, wordDict: string[]): boolean {
+  // TODO: Implement word break using dynamic programming
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

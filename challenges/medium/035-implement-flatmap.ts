@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function flatMap<T, U>(arr: T[], callback: (value: T, index: number, array: T[]) => U | U[]): U[] {
+  // TODO: Implement flatMap
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

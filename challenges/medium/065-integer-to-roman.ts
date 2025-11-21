@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function intToRoman(num: number): string {
+  // TODO: Implement integer to roman conversion
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

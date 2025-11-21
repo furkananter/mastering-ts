@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function maxArea(height: number[]): number {
+  // TODO: Implement container with most water
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

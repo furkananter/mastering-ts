@@ -35,6 +35,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function rotateMatrix<T>(matrix: T[][]): void {
+  // TODO: Implement matrix rotation in place
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

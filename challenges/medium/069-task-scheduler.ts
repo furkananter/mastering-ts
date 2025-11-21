@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function leastInterval(tasks: string[], n: number): number {
+  // TODO: Implement task scheduler
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

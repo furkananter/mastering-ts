@@ -33,6 +33,14 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+async function parallelLimit<T>(
+  tasks: Array<() => Promise<T>>,
+  limit: number
+): Promise<T[]> {
+  // TODO: Implement parallel execution with concurrency limit
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

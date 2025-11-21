@@ -28,6 +28,14 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+async function asyncFilter<T>(
+  arr: T[],
+  predicate: (item: T, index: number) => Promise<boolean>
+): Promise<T[]> {
+  // TODO: Implement async filter
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

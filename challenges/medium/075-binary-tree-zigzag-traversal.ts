@@ -34,6 +34,17 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface BinaryTreeNode<T> {
+  value: T;
+  left: BinaryTreeNode<T> | null;
+  right: BinaryTreeNode<T> | null;
+}
+
+function zigzagLevelOrder<T>(root: BinaryTreeNode<T> | null): T[][] {
+  // TODO: Implement zigzag level order traversal
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

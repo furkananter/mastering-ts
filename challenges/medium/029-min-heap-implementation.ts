@@ -34,6 +34,33 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class MinHeap<T = number> {
+  private heap: T[] = [];
+
+  insert(value: T): void {
+    // TODO: Implement insert
+    throw new Error("Not implemented");
+  }
+
+  extractMin(): T | undefined {
+    // TODO: Implement extractMin
+    throw new Error("Not implemented");
+  }
+
+  peek(): T | undefined {
+    // TODO: Implement peek
+    throw new Error("Not implemented");
+  }
+
+  private heapifyUp(index: number): void {
+    throw new Error("Not implemented");
+  }
+
+  private heapifyDown(index: number): void {
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

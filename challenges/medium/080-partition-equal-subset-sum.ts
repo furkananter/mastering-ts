@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function canPartition(nums: number[]): boolean {
+  // TODO: Implement partition equal subset sum using DP
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

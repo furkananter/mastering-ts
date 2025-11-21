@@ -30,6 +30,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NestedArray<T> = T | NestedArray<T>[];
+
+function deepFlatten<T>(arr: NestedArray<T>[]): T[] {
+  // TODO: Implement deep flatten using recursion
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function canCompleteCircuit(gas: number[], cost: number[]): number {
+  // TODO: Implement gas station problem
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

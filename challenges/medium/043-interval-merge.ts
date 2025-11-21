@@ -30,6 +30,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Interval = [number, number];
+
+function mergeIntervals(intervals: Interval[]): Interval[] {
+  // TODO: Implement interval merging
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

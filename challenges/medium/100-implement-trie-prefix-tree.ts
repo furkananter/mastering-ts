@@ -33,6 +33,34 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface TrieNode {
+  children: Map<string, TrieNode>;
+  isEndOfWord: boolean;
+}
+
+class Trie {
+  private root: TrieNode;
+
+  constructor() {
+    this.root = { children: new Map(), isEndOfWord: false };
+  }
+
+  insert(word: string): void {
+    // TODO: Implement insert
+    throw new Error("Not implemented");
+  }
+
+  search(word: string): boolean {
+    // TODO: Implement search
+    throw new Error("Not implemented");
+  }
+
+  startsWith(prefix: string): boolean {
+    // TODO: Implement startsWith
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -31,6 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function nextPermutation(nums: number[]): void {
+  // TODO: Implement next permutation in place
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

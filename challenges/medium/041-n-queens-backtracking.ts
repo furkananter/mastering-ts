@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function nQueens(n: number): number {
+  // TODO: Implement N-Queens backtracking
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

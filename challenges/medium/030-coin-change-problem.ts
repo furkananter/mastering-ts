@@ -31,6 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function coinChange(coins: number[], amount: number): number {
+  // TODO: Implement coin change using dynamic programming
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

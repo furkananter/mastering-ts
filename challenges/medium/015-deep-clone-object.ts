@@ -31,6 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function deepClone<T>(obj: T): T {
+  // TODO: Implement deep clone
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

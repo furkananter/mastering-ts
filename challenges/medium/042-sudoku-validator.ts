@@ -34,6 +34,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type SudokuBoard = number[][];
+
+function isValidSudoku(board: SudokuBoard): boolean {
+  // TODO: Implement Sudoku validator
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

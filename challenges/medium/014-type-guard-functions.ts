@@ -32,6 +32,21 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isString(value: unknown): value is string {
+  // TODO: Implement type guard for string
+  throw new Error("Not implemented");
+}
+
+function isNumber(value: unknown): value is number {
+  // TODO: Implement type guard for number
+  throw new Error("Not implemented");
+}
+
+function isArray(value: unknown): value is unknown[] {
+  // TODO: Implement type guard for array
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

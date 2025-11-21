@@ -30,6 +30,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function promiseAll<T extends readonly unknown[]>(
+  promises: T
+): Promise<{ -readonly [P in keyof T]: Awaited<T[P]> }> {
+  // TODO: Implement Promise.all
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

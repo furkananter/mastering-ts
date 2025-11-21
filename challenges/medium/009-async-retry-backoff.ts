@@ -34,6 +34,15 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+async function retryWithBackoff<T>(
+  fn: () => Promise<T>,
+  maxAttempts: number,
+  delay: number
+): Promise<T> {
+  // TODO: Implement retry with exponential backoff
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function rob(nums: number[]): number {
+  // TODO: Implement house robber using DP
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

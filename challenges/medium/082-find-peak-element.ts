@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function findPeakElement(nums: number[]): number {
+  // TODO: Implement find peak element using binary search
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

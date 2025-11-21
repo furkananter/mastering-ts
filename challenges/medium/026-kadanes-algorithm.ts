@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function maxSubarraySum(arr: number[]): number {
+  // TODO: Implement Kadane's algorithm
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

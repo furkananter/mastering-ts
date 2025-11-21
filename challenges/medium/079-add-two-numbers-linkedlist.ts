@@ -30,6 +30,16 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface ListNode<T = number> {
+  value: T;
+  next: ListNode<T> | null;
+}
+
+function addTwoNumbers(l1: ListNode<number>, l2: ListNode<number>): ListNode<number> {
+  // TODO: Implement add two numbers in linked lists
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

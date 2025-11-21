@@ -30,6 +30,31 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type EventCallback<T = any> = (data: T) => void;
+
+class EventEmitter<EventMap extends Record<string, any> = Record<string, any>> {
+  private events: Map<keyof EventMap, Set<EventCallback<any>>>;
+
+  constructor() {
+    this.events = new Map();
+  }
+
+  on<K extends keyof EventMap>(event: K, callback: EventCallback<EventMap[K]>): void {
+    // TODO: Implement on
+    throw new Error("Not implemented");
+  }
+
+  off<K extends keyof EventMap>(event: K, callback: EventCallback<EventMap[K]>): void {
+    // TODO: Implement off
+    throw new Error("Not implemented");
+  }
+
+  emit<K extends keyof EventMap>(event: K, data?: EventMap[K]): void {
+    // TODO: Implement emit
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

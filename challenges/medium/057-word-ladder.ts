@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function ladderLength(beginWord: string, endWord: string, wordList: string[]): number {
+  // TODO: Implement word ladder using BFS
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

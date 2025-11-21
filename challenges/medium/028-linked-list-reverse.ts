@@ -29,6 +29,16 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface ListNode<T = any> {
+  value: T;
+  next: ListNode<T> | null;
+}
+
+function reverseLinkedList<T>(head: ListNode<T>): ListNode<T> {
+  // TODO: Implement reverse linked list
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

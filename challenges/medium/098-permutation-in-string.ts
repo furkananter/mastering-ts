@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function checkInclusion(s1: string, s2: string): boolean {
+  // TODO: Implement permutation in string using sliding window
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -32,6 +32,15 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function myBind<T, A extends any[], R>(
+  fn: (this: T, ...args: A) => R,
+  thisArg: T,
+  ...boundArgs: any[]
+): (...args: any[]) => R {
+  // TODO: Implement bind
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

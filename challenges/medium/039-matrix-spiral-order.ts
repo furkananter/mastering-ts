@@ -32,6 +32,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function spiralOrder<T>(matrix: T[][]): T[] {
+  // TODO: Implement spiral order traversal
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -36,6 +36,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Graph<T = string> = Record<T & string, T[]>;
+
+function topologicalSort<T extends string>(graph: Graph<T>): T[] {
+  // TODO: Implement topological sort
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

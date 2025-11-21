@@ -30,6 +30,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function promiseAny<T extends readonly unknown[]>(
+  promises: T
+): Promise<Awaited<T[number]>> {
+  // TODO: Implement Promise.any
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

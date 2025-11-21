@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function singleNumber(nums: number[]): number {
+  // TODO: Implement single number II using bit manipulation
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -33,6 +33,21 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface BinaryTreeNode<T> {
+  value: T;
+  left: BinaryTreeNode<T> | null;
+  right: BinaryTreeNode<T> | null;
+}
+
+function lowestCommonAncestor<T>(
+  root: BinaryTreeNode<T>,
+  p: BinaryTreeNode<T>,
+  q: BinaryTreeNode<T>
+): BinaryTreeNode<T> | null {
+  // TODO: Implement lowest common ancestor
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

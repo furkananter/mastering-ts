@@ -28,6 +28,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function trap(height: number[]): number {
+  // TODO: Implement trapping rain water
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

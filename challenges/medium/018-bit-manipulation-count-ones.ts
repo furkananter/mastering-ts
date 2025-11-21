@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function countOnes(n: number): number {
+  // TODO: Implement count ones using bit manipulation
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function longestUnique(s: string): number {
+  // TODO: Implement longest unique substring
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

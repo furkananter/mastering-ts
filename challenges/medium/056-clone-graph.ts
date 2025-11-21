@@ -31,6 +31,16 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface GraphNode {
+  val: number;
+  neighbors: GraphNode[];
+}
+
+function cloneGraph(node: GraphNode | null): GraphNode | null {
+  // TODO: Implement graph cloning
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -34,6 +34,36 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class MinStack {
+  private stack: number[];
+  private minStack: number[];
+
+  constructor() {
+    this.stack = [];
+    this.minStack = [];
+  }
+
+  push(val: number): void {
+    // TODO: Implement push
+    throw new Error("Not implemented");
+  }
+
+  pop(): void {
+    // TODO: Implement pop
+    throw new Error("Not implemented");
+  }
+
+  top(): number {
+    // TODO: Implement top
+    throw new Error("Not implemented");
+  }
+
+  getMin(): number {
+    // TODO: Implement getMin
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

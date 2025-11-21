@@ -32,6 +32,31 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class UnionFind {
+  private parent: number[];
+  private rank: number[];
+
+  constructor(size: number) {
+    this.parent = Array.from({ length: size }, (_, i) => i);
+    this.rank = Array(size).fill(0);
+  }
+
+  find(x: number): number {
+    // TODO: Implement find with path compression
+    throw new Error("Not implemented");
+  }
+
+  union(x: number, y: number): void {
+    // TODO: Implement union by rank
+    throw new Error("Not implemented");
+  }
+
+  isConnected(x: number, y: number): boolean {
+    // TODO: Implement isConnected
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

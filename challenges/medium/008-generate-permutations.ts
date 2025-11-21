@@ -31,6 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function permutations<T>(arr: T[]): T[][] {
+  // TODO: Implement permutations using backtracking
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

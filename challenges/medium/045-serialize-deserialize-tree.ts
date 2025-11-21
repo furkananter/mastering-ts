@@ -30,6 +30,22 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface BinaryTreeNode<T> {
+  value: T;
+  left: BinaryTreeNode<T> | null;
+  right: BinaryTreeNode<T> | null;
+}
+
+function serialize<T>(root: BinaryTreeNode<T> | null): string {
+  // TODO: Implement serialize
+  throw new Error("Not implemented");
+}
+
+function deserialize<T = number>(data: string): BinaryTreeNode<T> | null {
+  // TODO: Implement deserialize
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

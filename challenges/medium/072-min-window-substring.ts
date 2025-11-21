@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function minWindow(s: string, t: string): string {
+  // TODO: Implement minimum window substring
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -31,6 +31,17 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type SettledResult<T> =
+  | { status: 'fulfilled'; value: T }
+  | { status: 'rejected'; reason: any };
+
+function promiseAllSettled<T extends readonly unknown[]>(
+  promises: T
+): Promise<{ -readonly [P in keyof T]: SettledResult<Awaited<T[P]>> }> {
+  // TODO: Implement Promise.allSettled
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function numDecodings(s: string): number {
+  // TODO: Implement decode ways using DP
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

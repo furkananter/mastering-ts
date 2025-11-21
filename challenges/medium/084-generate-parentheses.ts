@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function generateParenthesis(n: number): string[] {
+  // TODO: Implement generate parentheses using backtracking
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

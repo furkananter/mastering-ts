@@ -34,6 +34,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Graph<T = string> = Record<T & string, T[]>;
+
+function bfs<T extends string>(graph: Graph<T>, start: T, target: T): number {
+  // TODO: Implement BFS
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

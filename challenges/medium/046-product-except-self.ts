@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function productExceptSelf(nums: number[]): number[] {
+  // TODO: Implement product except self
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

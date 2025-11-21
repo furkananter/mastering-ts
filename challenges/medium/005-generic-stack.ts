@@ -32,6 +32,35 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class Stack<T> {
+  private items: T[] = [];
+
+  push(item: T): void {
+    // TODO: Implement push
+    throw new Error("Not implemented");
+  }
+
+  pop(): T | undefined {
+    // TODO: Implement pop
+    throw new Error("Not implemented");
+  }
+
+  peek(): T | undefined {
+    // TODO: Implement peek
+    throw new Error("Not implemented");
+  }
+
+  isEmpty(): boolean {
+    // TODO: Implement isEmpty
+    throw new Error("Not implemented");
+  }
+
+  size(): number {
+    // TODO: Implement size
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

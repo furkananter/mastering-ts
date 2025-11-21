@@ -34,6 +34,17 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface BinaryTreeNode<T> {
+  value: T;
+  left: BinaryTreeNode<T> | null;
+  right: BinaryTreeNode<T> | null;
+}
+
+function buildTree(preorder: number[], inorder: number[]): BinaryTreeNode<number> | null {
+  // TODO: Implement tree construction from preorder and inorder
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

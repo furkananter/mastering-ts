@@ -31,6 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function combinations(n: number, k: number): number[][] {
+  // TODO: Implement combinations using backtracking
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

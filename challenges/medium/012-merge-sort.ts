@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function mergeSort<T>(arr: T[]): T[] {
+  // TODO: Implement merge sort
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

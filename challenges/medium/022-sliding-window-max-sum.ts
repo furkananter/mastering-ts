@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function maxSumSubarray(arr: number[], k: number): number {
+  // TODO: Implement sliding window max sum
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function search(nums: number[], target: number): number {
+  // TODO: Implement search in rotated sorted array
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

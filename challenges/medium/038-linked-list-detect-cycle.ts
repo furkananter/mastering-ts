@@ -31,6 +31,16 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface ListNode<T = any> {
+  value: T;
+  next: ListNode<T> | null;
+}
+
+function hasCycle<T>(head: ListNode<T> | null): boolean {
+  // TODO: Implement Floyd's cycle detection
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function multiply(num1: string, num2: string): string {
+  // TODO: Implement string multiplication
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

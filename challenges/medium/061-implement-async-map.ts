@@ -29,6 +29,14 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+async function asyncMap<T, U>(
+  arr: T[],
+  callback: (item: T, index: number) => Promise<U>
+): Promise<U[]> {
+  // TODO: Implement async map
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

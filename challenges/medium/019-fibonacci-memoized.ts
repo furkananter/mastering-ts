@@ -29,6 +29,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+const fibonacciCache: Map<number, number> = new Map();
+
+function fibonacci(n: number): number {
+  // TODO: Implement fibonacci with memoization
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

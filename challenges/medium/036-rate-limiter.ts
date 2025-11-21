@@ -31,6 +31,25 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class RateLimiter {
+  private maxRequests: number;
+  private windowMs: number;
+  private tokens: number;
+  private lastRefill: number;
+
+  constructor(maxRequests: number, windowMs: number) {
+    this.maxRequests = maxRequests;
+    this.windowMs = windowMs;
+    this.tokens = maxRequests;
+    this.lastRefill = Date.now();
+  }
+
+  async acquire(): Promise<void> {
+    // TODO: Implement token bucket rate limiter
+    throw new Error("Not implemented");
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

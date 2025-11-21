@@ -33,6 +33,17 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface BinaryTreeNode<T> {
+  value: T;
+  left: BinaryTreeNode<T> | null;
+  right: BinaryTreeNode<T> | null;
+}
+
+function isValidBST(root: BinaryTreeNode<number> | null, min: number = -Infinity, max: number = Infinity): boolean {
+  // TODO: Implement BST validation
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

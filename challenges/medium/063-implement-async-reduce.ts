@@ -29,6 +29,15 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+async function asyncReduce<T, U>(
+  arr: T[],
+  callback: (acc: U, item: T, index: number) => Promise<U>,
+  initialValue: U
+): Promise<U> {
+  // TODO: Implement async reduce
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

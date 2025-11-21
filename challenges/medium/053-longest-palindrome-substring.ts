@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function longestPalindrome(s: string): string {
+  // TODO: Implement longest palindrome substring
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

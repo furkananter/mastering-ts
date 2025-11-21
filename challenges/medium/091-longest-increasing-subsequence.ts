@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function lengthOfLIS(nums: number[]): number {
+  // TODO: Implement longest increasing subsequence using DP
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

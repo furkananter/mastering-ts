@@ -32,6 +32,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function convert(s: string, numRows: number): string {
+  // TODO: Implement zigzag conversion
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

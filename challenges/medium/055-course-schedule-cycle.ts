@@ -29,6 +29,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Graph = Record<number, number[]>;
+
+function canFinish(numCourses: number, prerequisites: number[][]): boolean {
+  // TODO: Implement course schedule (detect cycles)
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function mySqrt(x: number): number {
+  // TODO: Implement square root using binary search
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

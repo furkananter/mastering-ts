@@ -31,6 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function simplifyPath(path: string): string {
+  // TODO: Implement simplify Unix path
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

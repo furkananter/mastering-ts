@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function findDuplicate(nums: number[]): number {
+  // TODO: Implement find duplicate using Floyd's algorithm
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function maxProduct(nums: number[]): number {
+  // TODO: Implement maximum product subarray using DP
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

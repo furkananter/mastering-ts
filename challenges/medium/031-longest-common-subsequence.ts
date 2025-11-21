@@ -31,6 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function lcs(text1: string, text2: string): number {
+  // TODO: Implement longest common subsequence using DP
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

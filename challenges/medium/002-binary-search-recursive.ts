@@ -30,6 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function binarySearch<T>(arr: T[], target: T, left: number = 0, right: number = arr.length - 1): number {
+  // TODO: Implement binary search recursively
+  throw new Error("Not implemented");
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================
