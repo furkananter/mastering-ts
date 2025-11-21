@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function hasAllUniqueChars(str: string): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

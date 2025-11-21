@@ -32,6 +32,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isValidParentheses(s: string): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

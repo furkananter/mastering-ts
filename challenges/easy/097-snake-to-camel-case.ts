@@ -27,6 +27,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function snakeToCamel(str: string): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

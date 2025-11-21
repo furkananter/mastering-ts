@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function once<T extends (...args: any[]) => any>(fn: T): T {
+  return ((...args: any[]) => {}) as T;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function frequencyCounter<T>(arr: T[]): Record<string, number> {
+  return {};
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -30,6 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isAdult(age: number): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

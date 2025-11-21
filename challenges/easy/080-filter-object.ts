@@ -27,6 +27,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function filterObject<T extends Record<string, any>>(obj: T, predicate: (entry: [string, any]) => boolean): Partial<T> {
+  return {};
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

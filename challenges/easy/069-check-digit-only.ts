@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isDigitOnly(str: string): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

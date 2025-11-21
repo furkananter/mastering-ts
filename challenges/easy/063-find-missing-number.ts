@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function findMissingNumber(arr: number[]): number {
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -33,6 +33,22 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface MinMaxStack<T> {
+  push(item: T): void;
+  pop(): T | undefined;
+  min(): T | undefined;
+  max(): T | undefined;
+}
+
+function createMinMaxStack<T = number>(): MinMaxStack<T> {
+  return {
+    push(item: T): void {},
+    pop(): T | undefined { return undefined; },
+    min(): T | undefined { return undefined; },
+    max(): T | undefined { return undefined; }
+  };
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

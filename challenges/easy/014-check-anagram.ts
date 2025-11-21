@@ -30,6 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isAnagram(str1: string, str2: string): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -27,6 +27,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function toQueryString(obj: Record<string, any>): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function sumObjectValues(obj: Record<string, any>): number {
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

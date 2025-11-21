@@ -27,6 +27,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function camelToSnake(str: string): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

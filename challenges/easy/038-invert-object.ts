@@ -26,6 +26,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function invertObject(obj: Record<string, string>): Record<string, string> {
+  return {};
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

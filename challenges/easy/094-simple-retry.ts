@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function retry<T>(fn: () => T, maxAttempts: number): T | undefined {
+  return undefined;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

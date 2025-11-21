@@ -30,6 +30,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function createCounter<T extends (...args: any[]) => any>(fn: T): { fn: T; getCount: () => number } {
+  return {
+    fn: ((...args: any[]) => {}) as T,
+    getCount: () => 0
+  };
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

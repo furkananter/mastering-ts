@@ -27,6 +27,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function groupBy<T extends Record<string, any>>(arr: T[], key: keyof T): Record<string, T[]> {
+  return {};
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

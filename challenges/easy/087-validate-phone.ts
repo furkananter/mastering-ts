@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isValidPhone(phone: string): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function xorOperation(a: boolean, b: boolean): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

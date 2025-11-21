@@ -28,6 +28,12 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+function titleCase(str: string): string {
+  // Your implementation here
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

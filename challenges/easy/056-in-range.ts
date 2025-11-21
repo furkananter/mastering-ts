@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function inRange(num: number, min: number, max: number): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

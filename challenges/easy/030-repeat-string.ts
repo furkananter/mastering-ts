@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function repeatString(str: string, times: number): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

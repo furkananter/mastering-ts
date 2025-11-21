@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function shallowClone<T extends object>(obj: T): T {
+  return {} as T;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

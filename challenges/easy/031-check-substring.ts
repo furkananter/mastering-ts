@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function hasSubstring(str: string, substr: string): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

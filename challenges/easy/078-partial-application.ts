@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function partial<T extends any[], U extends any[], R>(fn: (...args: [...T, ...U]) => R, ...initialArgs: T): (...args: U) => R {
+  return (...args: U) => fn(...initialArgs, ...args);
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

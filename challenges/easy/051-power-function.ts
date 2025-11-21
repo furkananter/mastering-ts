@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function power(base: number, exponent: number): number {
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

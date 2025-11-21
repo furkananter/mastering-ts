@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function countWords(str: string): number {
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

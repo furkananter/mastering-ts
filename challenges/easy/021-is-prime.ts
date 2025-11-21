@@ -31,6 +31,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isPrime(n: number): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

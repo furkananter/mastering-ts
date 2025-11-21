@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function average(numbers: number[]): number {
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================
