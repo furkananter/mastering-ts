@@ -29,6 +29,12 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+function reverseString(str: string): string {
+  // Your implementation here
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================
