@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function removeDuplicateChars(str: string): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

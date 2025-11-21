@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function mapToSquares(numbers: number[]): number[] {
+  return [];
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

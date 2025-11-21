@@ -30,6 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isArmstrong(n: number): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function twoSum(nums: number[], target: number): number[] {
+  return [];
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

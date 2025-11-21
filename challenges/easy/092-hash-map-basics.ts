@@ -32,6 +32,22 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface HashMap<K, V> {
+  set(key: K, value: V): void;
+  get(key: K): V | undefined;
+  has(key: K): boolean;
+  delete(key: K): boolean;
+}
+
+function createHashMap<K = any, V = any>(): HashMap<K, V> {
+  return {
+    set(key: K, value: V): void {},
+    get(key: K): V | undefined { return undefined; },
+    has(key: K): boolean { return false; },
+    delete(key: K): boolean { return false; }
+  };
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

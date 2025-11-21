@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function queryStringToObject(queryString: string): Record<string, string> {
+  return {};
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function findFirstDuplicate<T>(arr: T[]): T | undefined {
+  return undefined;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

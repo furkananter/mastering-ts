@@ -27,6 +27,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function mergeSorted(arr1: number[], arr2: number[]): number[] {
+  return [];
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

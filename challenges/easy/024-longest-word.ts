@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function longestWord(sentence: string): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

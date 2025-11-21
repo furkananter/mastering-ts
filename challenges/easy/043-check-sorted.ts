@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isSorted(arr: number[]): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

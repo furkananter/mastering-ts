@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function removeWhitespace(str: string): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

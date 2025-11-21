@@ -31,6 +31,22 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface Stack<T> {
+  push(item: T): void;
+  pop(): T | undefined;
+  peek(): T | undefined;
+  isEmpty(): boolean;
+}
+
+function createStack<T = any>(): Stack<T> {
+  return {
+    push(item: T): void {},
+    pop(): T | undefined { return undefined; },
+    peek(): T | undefined { return undefined; },
+    isEmpty(): boolean { return false; }
+  };
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function findMin(numbers: number[]): number {
+  return Infinity;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

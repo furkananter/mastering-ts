@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function truncate(str: string, maxLength: number): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

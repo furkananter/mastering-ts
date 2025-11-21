@@ -26,6 +26,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function omit<T extends object, K extends keyof T>(obj: T, keys: K[]): Omit<T, K> {
+  return {} as Omit<T, K>;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

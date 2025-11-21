@@ -29,6 +29,14 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+type EvenOdd = "even" | "odd";
+
+function isEvenOrOdd(num: number): EvenOdd {
+  // Your implementation here
+  return "even";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

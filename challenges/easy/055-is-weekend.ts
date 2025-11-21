@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isWeekend(date: Date): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

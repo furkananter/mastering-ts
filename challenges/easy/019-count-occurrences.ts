@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function countOccurrences<T>(arr: T[], value: T): number {
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

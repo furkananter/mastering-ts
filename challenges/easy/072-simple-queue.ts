@@ -31,6 +31,22 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface Queue<T> {
+  enqueue(item: T): void;
+  dequeue(): T | undefined;
+  peek(): T | undefined;
+  isEmpty(): boolean;
+}
+
+function createQueue<T = any>(): Queue<T> {
+  return {
+    enqueue(item: T): void {},
+    dequeue(): T | undefined { return undefined; },
+    peek(): T | undefined { return undefined; },
+    isEmpty(): boolean { return false; }
+  };
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

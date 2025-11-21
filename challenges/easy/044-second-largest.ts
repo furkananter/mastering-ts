@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function secondLargest(arr: number[]): number | undefined {
+  return undefined;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

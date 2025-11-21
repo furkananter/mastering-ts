@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function replaceSpaces(str: string, replacement: string): string {
+  return "";
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

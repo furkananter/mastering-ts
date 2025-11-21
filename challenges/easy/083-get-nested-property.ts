@@ -30,6 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function getNested(obj: any, path: string): any {
+  return undefined;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

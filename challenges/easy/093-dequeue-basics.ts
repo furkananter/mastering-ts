@@ -32,6 +32,22 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface Deque<T> {
+  pushFront(item: T): void;
+  pushBack(item: T): void;
+  popFront(): T | undefined;
+  popBack(): T | undefined;
+}
+
+function createDeque<T = any>(): Deque<T> {
+  return {
+    pushFront(item: T): void {},
+    pushBack(item: T): void {},
+    popFront(): T | undefined { return undefined; },
+    popBack(): T | undefined { return undefined; }
+  };
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -29,6 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function debounce<T extends (...args: any[]) => any>(fn: T, delay: number): T {
+  return ((...args: any[]) => {}) as T;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

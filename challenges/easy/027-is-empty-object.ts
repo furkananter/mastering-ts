@@ -27,6 +27,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isEmpty(obj: object): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

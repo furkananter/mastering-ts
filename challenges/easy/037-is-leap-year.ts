@@ -31,6 +31,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function isLeapYear(year: number): boolean {
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

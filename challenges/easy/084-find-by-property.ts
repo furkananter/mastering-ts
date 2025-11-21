@@ -28,6 +28,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function findByProperty<T extends Record<string, any>>(arr: T[], key: keyof T, value: any): T | undefined {
+  return undefined;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

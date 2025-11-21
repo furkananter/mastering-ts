@@ -28,6 +28,12 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+function mergeObjects<T extends object, U extends object>(obj1: T, obj2: U): T & U {
+  // Your implementation here
+  return {} as T & U;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================
