@@ -31,6 +31,12 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+function isPalindrome(str: string): boolean {
+  // Your implementation here
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

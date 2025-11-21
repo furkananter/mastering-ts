@@ -28,6 +28,12 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+function sumArray(arr: number[]): number {
+  // Your implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

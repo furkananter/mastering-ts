@@ -30,6 +30,12 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+function factorial(n: number): number {
+  // Your implementation here
+  return 1;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

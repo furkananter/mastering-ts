@@ -29,6 +29,12 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+function findMax(arr: number[]): number {
+  // Your implementation here
+  return -Infinity;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

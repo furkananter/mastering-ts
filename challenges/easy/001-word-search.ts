@@ -32,6 +32,18 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+// TypeScript Implementation Template:
+let wordSet: Set<string> | null = null;
+
+function setup(words: string[]): void {
+  // Your implementation here
+}
+
+function hasWord(word: string | null | undefined): boolean {
+  // Your implementation here
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================
