@@ -30,6 +30,51 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Point = readonly [x: number, y: number];
+
+interface Rectangle {
+  x: number;
+  y: number;
+  width: number;
+  height: number;
+}
+
+class QuadTree {
+  private boundary: Rectangle;
+  private capacity: number;
+  private points: Point[];
+  private divided: boolean;
+  private northeast: QuadTree | null;
+  private northwest: QuadTree | null;
+  private southeast: QuadTree | null;
+  private southwest: QuadTree | null;
+
+  constructor(x: number, y: number, width: number, height: number, capacity: number) {
+    this.boundary = { x, y, width, height };
+    this.capacity = capacity;
+    this.points = [];
+    this.divided = false;
+    this.northeast = null;
+    this.northwest = null;
+    this.southeast = null;
+    this.southwest = null;
+  }
+
+  insert(x: number, y: number): boolean {
+    // Implementation here
+    return false;
+  }
+
+  query(x1: number, y1: number, x2: number, y2: number): Point[] {
+    // Return points in rectangle
+    return [];
+  }
+
+  private subdivide(): void {
+    // Split into 4 quadrants
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

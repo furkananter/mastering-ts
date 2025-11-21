@@ -32,7 +32,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+interface Event { type: string; data: any; timestamp: number; }
+class EventStore { append(event: Event): void {} getEvents(): Event[] { return []; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

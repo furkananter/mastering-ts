@@ -29,7 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type WeightedEdge = readonly [u: number, v: number, weight: number];
+function chinesePostman(edges: ReadonlyArray<WeightedEdge>, numVertices: number): number { return 0; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

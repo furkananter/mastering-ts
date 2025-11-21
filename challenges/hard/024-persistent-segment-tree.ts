@@ -31,6 +31,42 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface PersistentNode {
+  value: number;
+  left: PersistentNode | null;
+  right: PersistentNode | null;
+}
+
+type VersionId = number;
+
+class PersistentSegmentTree {
+  private roots: Map<VersionId, PersistentNode>;
+  private n: number;
+  private nextVersion: VersionId;
+
+  constructor(arr: ReadonlyArray<number>) {
+    this.n = arr.length;
+    this.roots = new Map();
+    this.nextVersion = 1;
+    // Build initial version 0
+  }
+
+  update(version: VersionId, index: number, value: number): VersionId {
+    // Create new version with update
+    return this.nextVersion++;
+  }
+
+  query(version: VersionId, left: number, right: number): number {
+    // Query range sum in specific version
+    return 0;
+  }
+
+  private copyNode(node: PersistentNode | null): PersistentNode | null {
+    // Helper to copy node for path copying
+    return node;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

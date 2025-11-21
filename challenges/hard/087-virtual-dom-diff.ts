@@ -31,7 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+interface VNode { type: string; props: Record<string, any>; children: VNode[]; }
+type Patch = { type: string; [key: string]: any };
+function diff(oldNode: VNode, newNode: VNode): Patch[] { return []; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

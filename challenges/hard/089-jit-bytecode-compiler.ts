@@ -30,7 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type Bytecode = { op: string; args: any[] };
+class JITCompiler { compile(ast: any): Bytecode[] { return []; } execute(code: Bytecode[]): any { return null; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

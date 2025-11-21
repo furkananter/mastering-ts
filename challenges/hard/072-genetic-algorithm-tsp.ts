@@ -31,7 +31,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type DistanceMatrix = ReadonlyArray<ReadonlyArray<number>>;
+function geneticAlgorithmTSP(dist: DistanceMatrix, popSize?: number, generations?: number): number { return 0; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

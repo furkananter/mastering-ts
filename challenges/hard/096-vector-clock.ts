@@ -33,7 +33,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class VectorClock { constructor(nodeId: string) {} increment(): void {} merge(other: VectorClock): void {} compare(other: VectorClock): number { return 0; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

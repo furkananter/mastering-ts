@@ -30,6 +30,46 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface SplayNode<T> {
+  key: T;
+  left: SplayNode<T> | null;
+  right: SplayNode<T> | null;
+  parent: SplayNode<T> | null;
+}
+
+class SplayTree<T = number> {
+  private root: SplayNode<T> | null;
+
+  constructor() {
+    this.root = null;
+  }
+
+  insert(key: T): void {
+    // Implementation here
+  }
+
+  search(key: T): boolean {
+    // Implementation here
+    return false;
+  }
+
+  delete(key: T): void {
+    // Implementation here
+  }
+
+  private splay(node: SplayNode<T>): void {
+    // Splay operation to move node to root
+  }
+
+  private rotateRight(node: SplayNode<T>): void {
+    // Implementation here
+  }
+
+  private rotateLeft(node: SplayNode<T>): void {
+    // Implementation here
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

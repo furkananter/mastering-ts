@@ -29,6 +29,39 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface ACNode {
+  children: Map<string, ACNode>;
+  fail: ACNode | null;
+  output: string[];
+}
+
+interface Match {
+  pattern: string;
+  index: number;
+}
+
+class AhoCorasick {
+  private root: ACNode;
+
+  constructor(patterns: ReadonlyArray<string>) {
+    this.root = {
+      children: new Map(),
+      fail: null,
+      output: []
+    };
+    // Build trie and failure links
+  }
+
+  search(text: string): Match[] {
+    // Implementation here
+    return [];
+  }
+
+  private buildFailureLinks(): void {
+    // BFS to construct failure links
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

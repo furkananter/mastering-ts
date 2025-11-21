@@ -29,6 +29,19 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type SuffixIndex = number;
+type SuffixArray = SuffixIndex[];
+
+interface SuffixData {
+  index: SuffixIndex;
+  suffix: string;
+}
+
+function buildSuffixArray(text: string): SuffixArray {
+  // Implementation here
+  return [];
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -30,6 +30,32 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface ConcurrentNode<T> {
+  key: T;
+  marked: boolean;
+  forward: Array<ConcurrentNode<T> | null>;
+}
+
+class ConcurrentSkipList<T = number> {
+  private head: ConcurrentNode<T>;
+
+  constructor() {
+    this.head = { key: null as any, marked: false, forward: [] };
+  }
+
+  insert(key: T): boolean {
+    return false;
+  }
+
+  search(key: T): boolean {
+    return false;
+  }
+
+  delete(key: T): boolean {
+    return false;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

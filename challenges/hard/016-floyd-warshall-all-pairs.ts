@@ -34,6 +34,14 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type AdjacencyMatrix = ReadonlyArray<ReadonlyArray<number>>;
+type DistanceMatrix = number[][];
+
+function floydWarshall(graph: AdjacencyMatrix): DistanceMatrix | null {
+  // Implementation here
+  return null;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

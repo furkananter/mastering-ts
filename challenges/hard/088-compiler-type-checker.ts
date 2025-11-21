@@ -30,7 +30,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type Type = { kind: string; [key: string]: any };
+type Expr = { type: string; [key: string]: any };
+function typeCheck(expr: Expr, env: Map<string, Type>): Type { return { kind: 'any' }; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

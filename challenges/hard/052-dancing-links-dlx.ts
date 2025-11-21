@@ -34,7 +34,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+interface DLXNode { left: DLXNode; right: DLXNode; up: DLXNode; down: DLXNode; }
+class DancingLinks { constructor(matrix: ReadonlyArray<ReadonlyArray<number>>) {} solve(): number[][] { return []; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

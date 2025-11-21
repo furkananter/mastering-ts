@@ -31,7 +31,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class NFARegex { constructor(pattern: string) {} match(text: string): boolean { return false; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

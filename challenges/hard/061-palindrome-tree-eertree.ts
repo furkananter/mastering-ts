@@ -29,7 +29,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class PalindromeTree { constructor(text: string) {} countPalindromes(): number { return 0; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

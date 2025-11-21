@@ -30,6 +30,42 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface TrieNode {
+  children: Map<string, TrieNode>;
+  isEndOfWord: boolean;
+  frequency: number;
+}
+
+interface WordFrequency {
+  word: string;
+  frequency: number;
+}
+
+class AutocompleteTrie {
+  private root: TrieNode;
+
+  constructor() {
+    this.root = {
+      children: new Map(),
+      isEndOfWord: false,
+      frequency: 0
+    };
+  }
+
+  insert(word: string): void {
+    // Implementation here
+  }
+
+  autocomplete(prefix: string, k: number): string[] {
+    // Implementation here
+    return [];
+  }
+
+  private collectWords(node: TrieNode, prefix: string, results: WordFrequency[]): void {
+    // Helper to collect all words from a node
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

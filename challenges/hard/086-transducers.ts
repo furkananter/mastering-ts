@@ -33,7 +33,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type Transducer<A, B> = (xf: Transformer<any, B>) => Transformer<A, any>;
+interface Transformer<A, B> { init: () => B; step: (result: B, input: A) => B; result: (result: B) => B; }
+function map<A, B>(f: (x: A) => B): Transducer<A, B> { return null as any; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

@@ -31,6 +31,42 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type VersionId = number;
+
+interface UFNode {
+  parent: number;
+  rank: number;
+  left: UFNode | null;
+  right: UFNode | null;
+}
+
+class PersistentUnionFind {
+  private versions: Map<VersionId, UFNode[]>;
+  private nextVersion: VersionId;
+  private n: number;
+
+  constructor(size: number) {
+    this.n = size;
+    this.nextVersion = 1;
+    this.versions = new Map();
+    // Initialize version 0
+  }
+
+  union(version: VersionId, a: number, b: number): VersionId {
+    // Create new version with union
+    return this.nextVersion++;
+  }
+
+  find(version: VersionId, x: number): number {
+    // Find root in specific version
+    return x;
+  }
+
+  connected(version: VersionId, a: number, b: number): boolean {
+    return this.find(version, a) === this.find(version, b);
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

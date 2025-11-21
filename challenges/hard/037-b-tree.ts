@@ -30,6 +30,45 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface BTreeNode<T> {
+  keys: T[];
+  children: Array<BTreeNode<T>>;
+  isLeaf: boolean;
+  n: number; // Current number of keys
+}
+
+class BTree<T = number> {
+  private root: BTreeNode<T>;
+  private readonly t: number; // Minimum degree
+
+  constructor(t: number) {
+    this.t = t;
+    this.root = {
+      keys: [],
+      children: [],
+      isLeaf: true,
+      n: 0
+    };
+  }
+
+  insert(key: T): void {
+    // Implementation here
+  }
+
+  search(key: T): boolean {
+    // Implementation here
+    return false;
+  }
+
+  private splitChild(parent: BTreeNode<T>, index: number): void {
+    // Split full child
+  }
+
+  private insertNonFull(node: BTreeNode<T>, key: T): void {
+    // Insert into non-full node
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

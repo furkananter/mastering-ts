@@ -31,7 +31,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class SqrtDecomposition { constructor(arr: ReadonlyArray<number>) {} query(left: number, right: number): number { return 0; } update(index: number, value: number): void {} }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

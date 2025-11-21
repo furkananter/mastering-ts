@@ -30,6 +30,40 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class HyperLogLog {
+  private registers: Uint8Array;
+  private m: number;
+  private precision: number;
+
+  constructor(precision: number = 14) {
+    this.precision = precision;
+    this.m = 1 << precision;
+    this.registers = new Uint8Array(this.m);
+  }
+
+  add(item: string | number): void {
+    // Implementation here
+  }
+
+  count(): number {
+    // Implementation here
+    return 0;
+  }
+
+  private hash(item: string | number): number {
+    const str = String(item);
+    let h = 0;
+    for (let i = 0; i < str.length; i++) {
+      h = Math.imul(31, h) + str.charCodeAt(i) | 0;
+    }
+    return h >>> 0;
+  }
+
+  private leadingZeros(num: number): number {
+    return Math.clz32(num) + 1;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

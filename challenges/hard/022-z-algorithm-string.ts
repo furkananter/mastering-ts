@@ -29,6 +29,18 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type ZArray = number[];
+
+function buildZArray(s: string): ZArray {
+  // Helper to construct Z-array
+  return [];
+}
+
+function zAlgorithm(text: string, pattern: string): number[] {
+  // Implementation here
+  return [];
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

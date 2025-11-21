@@ -30,6 +30,44 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface SuffixTreeNode {
+  children: Map<string, SuffixTreeNode>;
+  suffixLink: SuffixTreeNode | null;
+  start: number;
+  end: { value: number } | number; // Box for active end
+}
+
+class SuffixTree {
+  private root: SuffixTreeNode;
+  private text: string;
+
+  constructor(text: string) {
+    this.text = text + '$'; // Add terminator
+    this.root = {
+      children: new Map(),
+      suffixLink: null,
+      start: -1,
+      end: -1
+    };
+    // Build suffix tree using Ukkonen's algorithm
+  }
+
+  contains(pattern: string): boolean {
+    // Implementation here
+    return false;
+  }
+
+  countOccurrences(pattern: string): number {
+    // Implementation here
+    return 0;
+  }
+
+  private search(node: SuffixTreeNode, pattern: string, index: number): SuffixTreeNode | null {
+    // Helper to traverse tree
+    return null;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

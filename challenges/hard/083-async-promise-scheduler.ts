@@ -31,7 +31,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class PromiseScheduler { constructor(maxConcurrent: number) {} add<T>(promiseFn: () => Promise<T>): Promise<T> { return Promise.resolve(null as any); } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

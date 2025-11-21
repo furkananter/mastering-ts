@@ -30,6 +30,45 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface HuffmanNode {
+  char: string | null;
+  freq: number;
+  left: HuffmanNode | null;
+  right: HuffmanNode | null;
+}
+
+type CodeTable = Map<string, string>;
+
+class HuffmanCoding {
+  private root: HuffmanNode | null;
+  private codes: CodeTable;
+
+  constructor(text: string) {
+    this.codes = new Map();
+    this.root = this.buildTree(text);
+    this.buildCodes(this.root, '');
+  }
+
+  encode(text: string): string {
+    // Implementation here
+    return '';
+  }
+
+  decode(encoded: string): string {
+    // Implementation here
+    return '';
+  }
+
+  private buildTree(text: string): HuffmanNode | null {
+    // Build Huffman tree from character frequencies
+    return null;
+  }
+
+  private buildCodes(node: HuffmanNode | null, code: string): void {
+    // Generate prefix codes
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

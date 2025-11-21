@@ -30,7 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+function bwt(text: string): { transformed: string; index: number } { return { transformed: '', index: 0 }; }
+function inverseBWT(transformed: string, index: number): string { return ''; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

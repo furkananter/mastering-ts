@@ -33,7 +33,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class GCounter { increment(nodeId: string, amount?: number): void {} value(): number { return 0; } merge(other: GCounter): void {} }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

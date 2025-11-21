@@ -28,6 +28,19 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Point = readonly [x: number, y: number];
+
+function distance(p1: Point, p2: Point): number {
+  const [x1, y1] = p1;
+  const [x2, y2] = p2;
+  return Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
+}
+
+function closestPair(points: ReadonlyArray<Point>): number {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

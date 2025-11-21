@@ -30,7 +30,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class LempelZiv { encode(text: string): Array<[number, number, string]> { return []; } decode(encoded: Array<[number, number, string]>): string { return ''; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

@@ -32,6 +32,44 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface TreapNode<T> {
+  key: T;
+  priority: number;
+  left: TreapNode<T> | null;
+  right: TreapNode<T> | null;
+}
+
+class Treap<T = number> {
+  private root: TreapNode<T> | null;
+
+  constructor() {
+    this.root = null;
+  }
+
+  insert(key: T): void {
+    // Implementation here
+  }
+
+  delete(key: T): void {
+    // Implementation here
+  }
+
+  search(key: T): boolean {
+    // Implementation here
+    return false;
+  }
+
+  private rotateRight(node: TreapNode<T>): TreapNode<T> {
+    // Implementation here
+    return node;
+  }
+
+  private rotateLeft(node: TreapNode<T>): TreapNode<T> {
+    // Implementation here
+    return node;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

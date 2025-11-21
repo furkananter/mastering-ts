@@ -29,7 +29,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+function lcsKK(s1: string, s2: string, k: number): string { return ''; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

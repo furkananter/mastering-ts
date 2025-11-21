@@ -30,7 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type DistanceMatrix = ReadonlyArray<ReadonlyArray<number>>;
+function antColonyOptimization(dist: DistanceMatrix, numAnts?: number, iterations?: number): number { return 0; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

@@ -32,6 +32,44 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface RopeNode {
+  weight: number;
+  str: string | null;
+  left: RopeNode | null;
+  right: RopeNode | null;
+}
+
+class Rope {
+  private root: RopeNode | null;
+
+  constructor(str: string) {
+    this.root = { weight: str.length, str, left: null, right: null };
+  }
+
+  charAt(index: number): string {
+    // Implementation here
+    return '';
+  }
+
+  substring(start: number, end: number): string {
+    // Implementation here
+    return '';
+  }
+
+  concat(other: Rope): Rope {
+    // Implementation here
+    return this;
+  }
+
+  insert(index: number, str: string): void {
+    // Implementation here
+  }
+
+  delete(start: number, end: number): void {
+    // Implementation here
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

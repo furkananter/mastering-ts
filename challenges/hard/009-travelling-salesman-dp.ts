@@ -34,6 +34,15 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type DistanceMatrix = ReadonlyArray<ReadonlyArray<number>>;
+type Bitmask = number;
+type CityId = number;
+
+function tsp(distanceMatrix: DistanceMatrix): number {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

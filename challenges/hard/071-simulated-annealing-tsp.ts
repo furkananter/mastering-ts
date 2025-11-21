@@ -30,7 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type DistanceMatrix = ReadonlyArray<ReadonlyArray<number>>;
+function simulatedAnnealingTSP(dist: DistanceMatrix, maxIter?: number): number { return 0; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

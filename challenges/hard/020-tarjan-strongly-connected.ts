@@ -33,6 +33,32 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type AdjacencyList = Record<NodeId, ReadonlyArray<NodeId>>;
+type SCC = NodeId[];
+
+interface TarjanState {
+  disc: Map<NodeId, number>;
+  low: Map<NodeId, number>;
+  stackMember: Set<NodeId>;
+  stack: NodeId[];
+  time: number;
+  result: SCC[];
+}
+
+function tarjanSCC(graph: AdjacencyList): SCC[] {
+  // Implementation here
+  return [];
+}
+
+function tarjanDFS(
+  node: NodeId,
+  graph: AdjacencyList,
+  state: TarjanState
+): void {
+  // Helper DFS function
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

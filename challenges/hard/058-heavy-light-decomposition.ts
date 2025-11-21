@@ -30,7 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type AdjacencyList = Record<number, readonly number[]>;
+class HeavyLightDecomposition { constructor(tree: AdjacencyList, root: number) {} query(u: number, v: number): number { return 0; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

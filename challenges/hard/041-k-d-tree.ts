@@ -30,6 +30,43 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Point = readonly number[];
+
+interface KDNode {
+  point: Point;
+  left: KDNode | null;
+  right: KDNode | null;
+}
+
+class KDTree {
+  private root: KDNode | null;
+  private k: number;
+
+  constructor(points: ReadonlyArray<Point>, k: number) {
+    this.k = k;
+    this.root = this.buildTree([...points], 0);
+  }
+
+  findNearest(target: Point): Point | null {
+    // Implementation here
+    return null;
+  }
+
+  rangeQuery(min: Point, max: Point): Point[] {
+    // Implementation here
+    return [];
+  }
+
+  private buildTree(points: Point[], depth: number): KDNode | null {
+    // Recursively build k-d tree
+    return null;
+  }
+
+  private distance(p1: Point, p2: Point): number {
+    return Math.sqrt(p1.reduce((sum, val, i) => sum + (val - p2[i]) ** 2, 0));
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

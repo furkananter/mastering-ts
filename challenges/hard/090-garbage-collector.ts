@@ -35,7 +35,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class GarbageCollector { constructor(heapSize: number) {} allocate(size: number): number { return 0; } collect(): void {} }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

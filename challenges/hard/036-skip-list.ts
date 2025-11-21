@@ -32,6 +32,50 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface SkipListNode<T> {
+  key: T;
+  forward: Array<SkipListNode<T> | null>;
+}
+
+class SkipList<T = number> {
+  private head: SkipListNode<T>;
+  private readonly maxLevel: number;
+  private level: number;
+  private readonly probability: number;
+
+  constructor(maxLevel: number = 16, probability: number = 0.5) {
+    this.maxLevel = maxLevel;
+    this.probability = probability;
+    this.level = 0;
+    this.head = {
+      key: null as any,
+      forward: new Array(maxLevel).fill(null)
+    };
+  }
+
+  insert(key: T): void {
+    // Implementation here
+  }
+
+  search(key: T): boolean {
+    // Implementation here
+    return false;
+  }
+
+  delete(key: T): boolean {
+    // Implementation here
+    return false;
+  }
+
+  private randomLevel(): number {
+    let lvl = 0;
+    while (Math.random() < this.probability && lvl < this.maxLevel - 1) {
+      lvl++;
+    }
+    return lvl;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

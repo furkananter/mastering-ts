@@ -29,7 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type WeightedEdge = readonly [u: number, v: number, weight: number];
+function steinerTree(edges: ReadonlyArray<WeightedEdge>, terminals: readonly number[], numVertices: number): number { return 0; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

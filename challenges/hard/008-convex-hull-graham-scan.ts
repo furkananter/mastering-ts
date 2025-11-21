@@ -29,6 +29,24 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Point = readonly [x: number, y: number];
+type ConvexHull = Point[];
+
+function crossProduct(o: Point, a: Point, b: Point): number {
+  // Helper to compute cross product for orientation
+  return 0;
+}
+
+function polarAngle(anchor: Point, point: Point): number {
+  // Helper to compute polar angle
+  return 0;
+}
+
+function convexHull(points: ReadonlyArray<Point>): ConvexHull {
+  // Implementation here
+  return [];
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

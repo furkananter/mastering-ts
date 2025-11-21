@@ -31,6 +31,35 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class CountMinSketch {
+  private table: number[][];
+  private width: number;
+  private depth: number;
+
+  constructor(width: number, depth: number) {
+    this.width = width;
+    this.depth = depth;
+    this.table = Array.from({ length: depth }, () => new Array(width).fill(0));
+  }
+
+  increment(item: string): void {
+    // Implementation here
+  }
+
+  estimate(item: string): number {
+    // Implementation here
+    return 0;
+  }
+
+  private hash(item: string, seed: number): number {
+    let hash = seed;
+    for (let i = 0; i < item.length; i++) {
+      hash = ((hash << 5) - hash + item.charCodeAt(i)) | 0;
+    }
+    return Math.abs(hash) % this.width;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -32,7 +32,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+interface Block { index: number; timestamp: number; data: any; previousHash: string; hash: string; nonce: number; }
+class Blockchain { constructor() {} addBlock(data: any): Block { return null as any; } isValid(): boolean { return false; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

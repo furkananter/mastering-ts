@@ -32,7 +32,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class DHT { constructor(nodeId: string) {} put(key: string, value: any): void {} get(key: string): any { return null; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

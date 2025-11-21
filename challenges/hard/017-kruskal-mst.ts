@@ -32,6 +32,36 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type EdgeWeight = number;
+type WeightedEdge = readonly [u: NodeId, v: NodeId, weight: EdgeWeight];
+type EdgeList = ReadonlyArray<WeightedEdge>;
+
+class UnionFind {
+  private parent: number[];
+  private rank: number[];
+
+  constructor(size: number) {
+    this.parent = Array.from({ length: size }, (_, i) => i);
+    this.rank = new Array(size).fill(0);
+  }
+
+  find(x: number): number {
+    // Implementation here
+    return x;
+  }
+
+  union(x: number, y: number): boolean {
+    // Implementation here
+    return false;
+  }
+}
+
+function kruskalMST(edges: EdgeList, numVertices: number): number {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

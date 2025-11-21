@@ -30,6 +30,40 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Point = readonly number[];
+
+interface VPNode {
+  point: Point;
+  threshold: number;
+  left: VPNode | null;
+  right: VPNode | null;
+}
+
+class VPTree {
+  private root: VPNode | null;
+
+  constructor(points: ReadonlyArray<Point>) {
+    this.root = this.buildTree([...points]);
+  }
+
+  findNearest(target: Point): Point | null {
+    // Implementation here
+    return null;
+  }
+
+  private buildTree(points: Point[]): VPNode | null {
+    // Recursively build VP-tree
+    return null;
+  }
+
+  private distance(p1: Point, p2: Point): number {
+    // Euclidean distance
+    return Math.sqrt(
+      p1.reduce((sum, val, i) => sum + (val - p2[i]) ** 2, 0)
+    );
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

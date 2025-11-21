@@ -33,6 +33,27 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Position = readonly [row: number, col: number];
+type Grid = ReadonlyArray<ReadonlyArray<number>>;
+type Path = Position[] | null;
+
+interface AStarNode {
+  pos: Position;
+  g: number; // Cost from start
+  h: number; // Heuristic (Manhattan distance)
+  f: number; // g + h
+  parent: Position | null;
+}
+
+function manhattanDistance(a: Position, b: Position): number {
+  return Math.abs(a[0] - b[0]) + Math.abs(a[1] - b[1]);
+}
+
+function aStar(grid: Grid, start: Position, goal: Position): Path {
+  // Implementation here
+  return null;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

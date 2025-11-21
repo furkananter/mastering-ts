@@ -33,7 +33,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+function solveSudoku(board: number[][]): boolean { return false; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

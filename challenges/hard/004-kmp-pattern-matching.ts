@@ -29,6 +29,16 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function computeLPS(pattern: string): number[] {
+  // Helper function to compute Longest Prefix Suffix array
+  return [];
+}
+
+function kmpSearch(text: string, pattern: string): number[] {
+  // Implementation here
+  return [];
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

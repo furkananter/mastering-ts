@@ -34,7 +34,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class IncrementalComputation<T> { constructor(compute: () => T) {} recompute(): T { return null as any; } invalidate(): void {} }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

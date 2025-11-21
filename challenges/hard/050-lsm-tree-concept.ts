@@ -30,6 +30,42 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Key = string;
+type Value = any;
+type MemTable = Map<Key, Value>;
+type SSTable = Map<Key, Value>; // Sorted String Table (simplified)
+
+class LSMTree {
+  private memtable: MemTable;
+  private levels: SSTable[];
+  private memtableSize: number;
+  private threshold: number;
+
+  constructor(threshold: number = 10) {
+    this.memtable = new Map();
+    this.levels = [];
+    this.memtableSize = 0;
+    this.threshold = threshold;
+  }
+
+  put(key: Key, value: Value): void {
+    // Implementation here
+  }
+
+  get(key: Key): Value | undefined {
+    // Implementation here
+    return undefined;
+  }
+
+  private flush(): void {
+    // Flush memtable to disk level
+  }
+
+  private compact(): void {
+    // Merge levels
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

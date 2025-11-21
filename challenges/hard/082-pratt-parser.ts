@@ -30,7 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+interface PrattRule { prefix?: () => any; infix?: (left: any) => any; precedence: number; }
+class PrattParser { constructor(rules: Map<string, PrattRule>) {} parse(tokens: string[]): any { return null; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

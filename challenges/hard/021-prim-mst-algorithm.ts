@@ -34,6 +34,21 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type EdgeWeight = number;
+type Edge = readonly [neighbor: NodeId, weight: EdgeWeight];
+type WeightedAdjacencyList = Record<NodeId, ReadonlyArray<Edge>>;
+
+interface PriorityQueueItem {
+  node: NodeId;
+  weight: EdgeWeight;
+}
+
+function primMST(graph: WeightedAdjacencyList): number {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

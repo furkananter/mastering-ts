@@ -30,7 +30,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class WaveletTree { constructor(arr: ReadonlyArray<number>) {} access(index: number): number { return 0; } rank(value: number, index: number): number { return 0; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

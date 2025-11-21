@@ -31,6 +31,30 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type SegmentTreeNode = number;
+
+class SegmentTree {
+  private tree: SegmentTreeNode[];
+  private n: number;
+  private arr: number[];
+
+  constructor(arr: ReadonlyArray<number>) {
+    this.n = arr.length;
+    this.arr = [...arr];
+    this.tree = new Array(4 * this.n).fill(0);
+    // Build tree
+  }
+
+  query(left: number, right: number): number {
+    // Implementation here
+    return 0;
+  }
+
+  update(index: number, value: number): void {
+    // Implementation here
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

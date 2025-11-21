@@ -29,6 +29,21 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type EdgeWeight = number;
+type WeightedEdge = readonly [from: NodeId, to: NodeId, weight: EdgeWeight];
+type EdgeList = ReadonlyArray<WeightedEdge>;
+type DistanceMap = Record<NodeId, number>;
+
+function bellmanFord(
+  edges: EdgeList,
+  numVertices: number,
+  source: NodeId
+): DistanceMap | null {
+  // Implementation here
+  return null;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

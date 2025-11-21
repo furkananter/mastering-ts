@@ -32,6 +32,43 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class BitmapIndex {
+  private bitmap: Uint32Array;
+  private size: number;
+
+  constructor(maxValue: number = 1000) {
+    this.size = Math.ceil(maxValue / 32);
+    this.bitmap = new Uint32Array(this.size);
+  }
+
+  add(value: number): void {
+    // Implementation here
+  }
+
+  contains(value: number): boolean {
+    // Implementation here
+    return false;
+  }
+
+  union(other: BitmapIndex): BitmapIndex {
+    // Implementation here
+    const result = new BitmapIndex(this.size * 32);
+    return result;
+  }
+
+  intersection(other: BitmapIndex): BitmapIndex {
+    // Implementation here
+    const result = new BitmapIndex(this.size * 32);
+    return result;
+  }
+
+  difference(other: BitmapIndex): BitmapIndex {
+    // Implementation here
+    const result = new BitmapIndex(this.size * 32);
+    return result;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

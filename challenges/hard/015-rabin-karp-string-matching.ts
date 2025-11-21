@@ -29,6 +29,22 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type HashValue = number;
+type MatchIndices = number[];
+
+const PRIME = 101;
+const BASE = 256;
+
+function computeHash(str: string, length: number): HashValue {
+  // Helper to compute polynomial rolling hash
+  return 0;
+}
+
+function rabinKarp(text: string, pattern: string): MatchIndices {
+  // Implementation here
+  return [];
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

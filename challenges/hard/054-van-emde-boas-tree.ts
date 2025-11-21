@@ -31,7 +31,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class VanEmdeBoasTree { constructor(universeSize: number) {} insert(x: number): void {} delete(x: number): void {} successor(x: number): number | null { return null; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

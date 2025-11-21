@@ -30,6 +30,38 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Interval = readonly [start: number, end: number];
+
+interface IntervalNode {
+  interval: Interval;
+  max: number; // Max endpoint in subtree
+  left: IntervalNode | null;
+  right: IntervalNode | null;
+}
+
+class IntervalTree {
+  private root: IntervalNode | null;
+
+  constructor() {
+    this.root = null;
+  }
+
+  insert(start: number, end: number): void {
+    // Implementation here
+  }
+
+  findOverlaps(start: number, end: number): Interval[] {
+    // Implementation here
+    return [];
+  }
+
+  private overlaps(interval1: Interval, interval2: Interval): boolean {
+    const [s1, e1] = interval1;
+    const [s2, e2] = interval2;
+    return s1 <= e2 && s2 <= e1;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

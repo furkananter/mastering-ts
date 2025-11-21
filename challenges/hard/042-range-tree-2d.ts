@@ -30,6 +30,33 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type Point2D = readonly [x: number, y: number];
+
+interface RangeNode {
+  point: Point2D;
+  left: RangeNode | null;
+  right: RangeNode | null;
+  yTree: RangeNode | null; // Secondary tree on y-coordinate
+}
+
+class RangeTree2D {
+  private root: RangeNode | null;
+
+  constructor(points: ReadonlyArray<Point2D>) {
+    this.root = this.buildTree([...points].sort((a, b) => a[0] - b[0]));
+  }
+
+  query(x1: number, y1: number, x2: number, y2: number): Point2D[] {
+    // Implementation here
+    return [];
+  }
+
+  private buildTree(points: Point2D[]): RangeNode | null {
+    // Build range tree with nested structure
+    return null;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

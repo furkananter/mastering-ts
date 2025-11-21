@@ -31,7 +31,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+interface QueryPlan { type: string; cost: number; children?: QueryPlan[]; }
+function optimizeQuery(query: string): QueryPlan { return { type: 'scan', cost: 0 }; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

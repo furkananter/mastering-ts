@@ -34,7 +34,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class ReactiveNode<T> { constructor(compute: () => T) {} get value(): T { return null as any; } subscribe(callback: (val: T) => void): void {} }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

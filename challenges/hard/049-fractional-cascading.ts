@@ -30,6 +30,34 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type SortedList = ReadonlyArray<number>;
+
+interface AugmentedNode {
+  value: number;
+  listIndex: number;
+  bridges: Map<number, number>;
+}
+
+class FractionalCascading {
+  private lists: SortedList[];
+  private augmented: AugmentedNode[][];
+
+  constructor(lists: ReadonlyArray<SortedList>) {
+    this.lists = lists.map(l => [...l]);
+    this.augmented = [];
+    this.preprocess();
+  }
+
+  search(value: number): boolean[] {
+    // Implementation here
+    return new Array(this.lists.length).fill(false);
+  }
+
+  private preprocess(): void {
+    // Build augmented lists with bridge pointers
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

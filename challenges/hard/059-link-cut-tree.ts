@@ -33,7 +33,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class LinkCutTree { constructor(n: number) {} link(u: number, v: number): void {} cut(u: number, v: number): void {} connected(u: number, v: number): boolean { return false; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

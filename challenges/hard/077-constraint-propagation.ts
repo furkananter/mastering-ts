@@ -31,7 +31,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type Domain = Set<any>;
+type Constraint<T> = (vars: Map<string, T>) => boolean;
+class CSP<T> { constructor(variables: string[], domains: Map<string, Domain>) {} solve(): Map<string, T> | null { return null; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

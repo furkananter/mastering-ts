@@ -31,7 +31,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class MCTSNode { constructor(state: any, parent?: MCTSNode) {} select(): MCTSNode { return this; } }
+function mcts(rootState: any, iterations: number): any { return null; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

@@ -31,7 +31,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type LogEntry = { term: number; command: any };
+class RaftNode { constructor(nodeId: string, peers: string[]) {} appendEntries(entries: LogEntry[]): boolean { return false; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

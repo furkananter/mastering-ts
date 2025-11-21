@@ -29,6 +29,15 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function knapsack(
+  weights: ReadonlyArray<number>,
+  values: ReadonlyArray<number>,
+  capacity: number
+): number {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

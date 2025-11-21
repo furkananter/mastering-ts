@@ -33,7 +33,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type Grammar = Map<string, string[][]>;
+class LL1Parser { constructor(grammar: Grammar) {} parse(tokens: string[]): boolean { return false; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

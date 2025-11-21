@@ -29,6 +29,17 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type EdgeWeight = number;
+type WeightedEdge = readonly [from: NodeId, to: NodeId, weight: EdgeWeight];
+type EdgeList = ReadonlyArray<WeightedEdge>;
+type DistanceMatrix = number[][];
+
+function johnsonAllPairs(edges: EdgeList, numVertices: number): DistanceMatrix | null {
+  // Implementation here
+  return null;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

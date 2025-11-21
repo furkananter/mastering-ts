@@ -30,7 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+interface Query { left: number; right: number; index: number; }
+function moAlgorithm(arr: ReadonlyArray<number>, queries: ReadonlyArray<Omit<Query, 'index'>>): number[] { return []; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

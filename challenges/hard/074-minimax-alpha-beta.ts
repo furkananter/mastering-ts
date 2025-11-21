@@ -30,7 +30,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type GameState = any;
+function minimax(state: GameState, depth: number, isMaximizing: boolean, alpha: number, beta: number): number { return 0; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

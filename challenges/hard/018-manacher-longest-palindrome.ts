@@ -30,6 +30,16 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function preprocessString(s: string): string {
+  // Add special characters to handle even/odd length uniformly
+  return '';
+}
+
+function manacher(s: string): string {
+  // Implementation here
+  return '';
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

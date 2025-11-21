@@ -34,7 +34,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type DistanceMatrix = ReadonlyArray<ReadonlyArray<number>>;
+function tspBranchBound(dist: DistanceMatrix): number { return 0; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

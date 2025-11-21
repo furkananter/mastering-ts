@@ -34,7 +34,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type CapacityMatrix = ReadonlyArray<ReadonlyArray<number>>;
+type CostMatrix = ReadonlyArray<ReadonlyArray<number>>;
+function minCostMaxFlow(capacity: CapacityMatrix, cost: CostMatrix, source: number, sink: number): { flow: number; cost: number } { return { flow: 0, cost: 0 }; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

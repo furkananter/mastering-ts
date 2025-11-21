@@ -32,7 +32,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class MerkleTree { constructor(leaves: string[]) {} getRoot(): string { return ''; } getProof(index: number): string[] { return []; } verify(leaf: string, proof: string[], root: string): boolean { return false; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

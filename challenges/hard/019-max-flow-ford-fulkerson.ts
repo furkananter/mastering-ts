@@ -36,6 +36,29 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type CapacityMatrix = ReadonlyArray<ReadonlyArray<number>>;
+type NodeId = number;
+type FlowValue = number;
+
+function bfs(
+  residualGraph: number[][],
+  source: NodeId,
+  sink: NodeId,
+  parent: number[]
+): boolean {
+  // Helper to find augmenting path
+  return false;
+}
+
+function maxFlow(
+  capacity: CapacityMatrix,
+  source: NodeId,
+  sink: NodeId
+): FlowValue {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

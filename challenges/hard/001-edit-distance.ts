@@ -29,6 +29,11 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+function editDistance(word1: string, word2: string): number {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

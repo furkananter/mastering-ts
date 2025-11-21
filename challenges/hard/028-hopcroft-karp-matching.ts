@@ -33,6 +33,40 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type BipartiteGraph = Record<NodeId, ReadonlyArray<NodeId>>;
+
+function hopcroftKarp(
+  graph: BipartiteGraph,
+  leftSize: number,
+  rightSize: number
+): number {
+  // Implementation here
+  return 0;
+}
+
+function bfsHK(
+  graph: BipartiteGraph,
+  pairU: Map<number, number>,
+  pairV: Map<number, number>,
+  dist: Map<number, number>,
+  leftSize: number
+): boolean {
+  // BFS to find augmenting paths
+  return false;
+}
+
+function dfsHK(
+  u: NodeId,
+  graph: BipartiteGraph,
+  pairU: Map<number, number>,
+  pairV: Map<number, number>,
+  dist: Map<number, number>
+): boolean {
+  // DFS to find augmenting path from u
+  return false;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -29,7 +29,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type AdjacencyList = Record<number, readonly number[]>;
+function chromaticNumber(graph: AdjacencyList): number { return 0; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

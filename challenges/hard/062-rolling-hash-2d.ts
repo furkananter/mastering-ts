@@ -30,7 +30,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class RollingHash2D { constructor(matrix: ReadonlyArray<ReadonlyArray<number>>) {} query(r1: number, c1: number, r2: number, c2: number): number { return 0; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

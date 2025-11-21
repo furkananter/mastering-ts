@@ -31,6 +31,56 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+enum Color {
+  RED = 'RED',
+  BLACK = 'BLACK'
+}
+
+interface RBNode<T> {
+  value: T;
+  color: Color;
+  left: RBNode<T> | null;
+  right: RBNode<T> | null;
+  parent: RBNode<T> | null;
+}
+
+class RedBlackTree<T = number> {
+  private root: RBNode<T> | null;
+  private readonly NIL: RBNode<T>;
+
+  constructor() {
+    this.NIL = {
+      value: null as any,
+      color: Color.BLACK,
+      left: null,
+      right: null,
+      parent: null
+    };
+    this.root = this.NIL;
+  }
+
+  insert(value: T): void {
+    // Implementation here
+  }
+
+  search(value: T): boolean {
+    // Implementation here
+    return false;
+  }
+
+  private rotateLeft(node: RBNode<T>): void {
+    // Implementation here
+  }
+
+  private rotateRight(node: RBNode<T>): void {
+    // Implementation here
+  }
+
+  private fixInsert(node: RBNode<T>): void {
+    // Fix RB tree properties after insert
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

@@ -31,6 +31,38 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type HashFunction = (input: string, seed: number) => number;
+
+class BloomFilter {
+  private bitArray: Uint8Array;
+  private size: number;
+  private numHashes: number;
+
+  constructor(size: number, numHashes: number) {
+    this.size = size;
+    this.numHashes = numHashes;
+    this.bitArray = new Uint8Array(Math.ceil(size / 8));
+  }
+
+  add(item: string): void {
+    // Implementation here
+  }
+
+  mightContain(item: string): boolean {
+    // Implementation here
+    return false;
+  }
+
+  private hash(item: string, seed: number): number {
+    // Generate hash for given seed
+    let hash = 0;
+    for (let i = 0; i < item.length; i++) {
+      hash = ((hash << 5) - hash + item.charCodeAt(i) + seed) | 0;
+    }
+    return Math.abs(hash) % this.size;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

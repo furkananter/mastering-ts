@@ -32,7 +32,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type Operation = { type: string; position: number; content?: string };
+function transform(op1: Operation, op2: Operation): [Operation, Operation] { return [op1, op2]; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

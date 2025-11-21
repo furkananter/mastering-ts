@@ -31,6 +31,30 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+class FenwickTree {
+  private tree: number[];
+  private n: number;
+
+  constructor(arr: ReadonlyArray<number>) {
+    this.n = arr.length;
+    this.tree = new Array(this.n + 1).fill(0);
+    // Build tree
+  }
+
+  update(index: number, delta: number): void {
+    // Implementation here
+  }
+
+  query(index: number): number {
+    // Implementation here
+    return 0;
+  }
+
+  private lsb(x: number): number {
+    return x & -x;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

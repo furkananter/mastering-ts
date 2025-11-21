@@ -33,6 +33,53 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+interface AVLNode<T> {
+  value: T;
+  left: AVLNode<T> | null;
+  right: AVLNode<T> | null;
+  height: number;
+}
+
+class AVLTree<T = number> {
+  private root: AVLNode<T> | null;
+
+  constructor() {
+    this.root = null;
+  }
+
+  insert(value: T): void {
+    // Implementation here
+  }
+
+  delete(value: T): void {
+    // Implementation here
+  }
+
+  search(value: T): boolean {
+    // Implementation here
+    return false;
+  }
+
+  private getHeight(node: AVLNode<T> | null): number {
+    return node?.height ?? 0;
+  }
+
+  private getBalance(node: AVLNode<T> | null): number {
+    if (!node) return 0;
+    return this.getHeight(node.left) - this.getHeight(node.right);
+  }
+
+  private rotateRight(y: AVLNode<T>): AVLNode<T> {
+    // Implementation here
+    return y;
+  }
+
+  private rotateLeft(x: AVLNode<T>): AVLNode<T> {
+    // Implementation here
+    return x;
+  }
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

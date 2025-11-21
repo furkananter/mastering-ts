@@ -30,6 +30,13 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type MatrixDimensions = ReadonlyArray<number>;
+
+function matrixChainOrder(dimensions: MatrixDimensions): number {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

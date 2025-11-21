@@ -33,7 +33,10 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type Expr = number | string | Expr[];
+function evaluate(expr: Expr, env: Map<string, any>): any { return null; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

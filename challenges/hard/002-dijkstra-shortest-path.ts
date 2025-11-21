@@ -34,6 +34,22 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type EdgeWeight = number;
+type Edge = readonly [NodeId, EdgeWeight];
+type AdjacencyList = Record<NodeId, ReadonlyArray<Edge>>;
+type DistanceMap = Record<NodeId, number>;
+
+interface PriorityQueueNode {
+  readonly node: NodeId;
+  readonly distance: number;
+}
+
+function dijkstra(graph: AdjacencyList, source: NodeId): DistanceMap {
+  // Implementation here
+  return {};
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

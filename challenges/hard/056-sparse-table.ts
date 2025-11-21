@@ -30,7 +30,9 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+class SparseTable { private table: number[][]; constructor(arr: ReadonlyArray<number>) { this.table = []; } query(left: number, right: number): number { return 0; } }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

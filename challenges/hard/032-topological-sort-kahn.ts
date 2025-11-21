@@ -31,6 +31,14 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type AdjacencyList = Record<NodeId, ReadonlyArray<NodeId>>;
+
+function topologicalSort(graph: AdjacencyList): NodeId[] | null {
+  // Implementation here
+  return null;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

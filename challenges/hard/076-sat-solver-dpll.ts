@@ -30,7 +30,12 @@
 // YOUR SOLUTION HERE
 // ============================================
 
-// ============================================
+type Literal = number;
+type Clause = readonly Literal[];
+type CNF = readonly Clause[];
+function dpllSolver(cnf: CNF): boolean | Map<number, boolean> { return false; }
+
+
 // TEST CASES - Don't modify
 // ============================================
 

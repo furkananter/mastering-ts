@@ -34,6 +34,37 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type CapacityMatrix = ReadonlyArray<ReadonlyArray<number>>;
+type NodeId = number;
+type Level = number;
+
+function buildLevelGraph(
+  residual: number[][],
+  source: NodeId,
+  sink: NodeId,
+  level: number[]
+): boolean {
+  // BFS to build level graph
+  return false;
+}
+
+function sendFlow(
+  residual: number[][],
+  u: NodeId,
+  sink: NodeId,
+  flow: number,
+  level: number[],
+  start: number[]
+): number {
+  // DFS to find blocking flow
+  return 0;
+}
+
+function dinicMaxFlow(capacity: CapacityMatrix, source: NodeId, sink: NodeId): number {
+  // Implementation here
+  return 0;
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================

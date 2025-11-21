@@ -32,6 +32,33 @@
 // YOUR SOLUTION HERE
 // ============================================
 
+type NodeId = number;
+type Edge = readonly [u: NodeId, v: NodeId];
+type AdjacencyList = Record<NodeId, ReadonlyArray<NodeId>>;
+
+interface CriticalElements {
+  points: NodeId[];
+  bridges: Edge[];
+}
+
+function findCritical(graph: AdjacencyList): CriticalElements {
+  // Implementation here
+  return { points: [], bridges: [] };
+}
+
+function dfs(
+  u: NodeId,
+  parent: NodeId,
+  graph: AdjacencyList,
+  disc: Map<NodeId, number>,
+  low: Map<NodeId, number>,
+  time: { value: number },
+  points: Set<NodeId>,
+  bridges: Edge[]
+): void {
+  // Helper DFS to find articulation points and bridges
+}
+
 // ============================================
 // TEST CASES - Don't modify
 // ============================================
