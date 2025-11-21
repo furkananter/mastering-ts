@@ -38,15 +38,15 @@ function pick<T extends object, K extends keyof T>(obj: T, keys: K[]): Pick<T, K
 function runTests(): void {
   console.log("Running tests...\n");
 
-  const result1 = pick({a: 1, b: 2, c: 3}, ['a', 'c']);
-  console.assert(JSON.stringify(result1) === JSON.stringify({a: 1, c: 3}), "❌ Test 1 failed");
+  const result1 = pick({ a: 1, b: 2, c: 3 }, ['a', 'c']);
+  console.assert(JSON.stringify(result1) === JSON.stringify({ a: 1, c: 3 }), "❌ Test 1 failed");
   console.log("✅ Test 1 passed");
 
-  const result2 = pick({name: 'Alice', age: 30}, ['name']);
-  console.assert(JSON.stringify(result2) === JSON.stringify({name: 'Alice'}), "❌ Test 2 failed");
+  const result2 = pick({ name: 'Alice', age: 30 }, ['name']);
+  console.assert(JSON.stringify(result2) === JSON.stringify({ name: 'Alice' }), "❌ Test 2 failed");
   console.log("✅ Test 2 passed");
 
-  const result3 = pick({x: 1}, ['y']);
+  const result3 = pick({ x: 1 }, ['y']);
   console.assert(JSON.stringify(result3) === JSON.stringify({}), "❌ Test 3 failed");
   console.log("✅ Test 3 passed");
 
